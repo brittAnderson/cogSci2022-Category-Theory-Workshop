@@ -1,0 +1,33 @@
+#+options: H:1 toc:nil
+#+latex_class: beamer
+#+columns: %45ITEM %10BEAMER_env(Env) %10BEAMER_act(Act) %4BEAMER_col(Col) %8BEAMER_opt(Opt)
+#+beamer_theme: default
+#+beamer_color_theme:
+#+beamer_font_theme:
+#+beamer_inner_theme:
+#+beamer_outer_theme:
+#+beamer_header:
+#+Title: Introduction to the Workshop and Its Goals
+
+* A tour of category theory from basic terminology to contemporary research applications.
+
+* An understanding of why category is a good tool
+  + the stories of how we each came to it, 
+  + what the basics are,
+  + and how it is used in contemporary research. 
+
+* Setting Expectations
+  1. You /will/ know what category theory is, and what its basic terms mean.
+  2. You /will/ see how category theory is used in contemporary research.
+  3. You /will/ be given a pointer to textbooks and articles that can be used for self-study and as examples of category theory in the wild.
+  4. But you /will not/ be able to use category theory in your research only attending this one day workshop.
+
+* General Ambitions
+  1. Be able to state what a /category/ is and give a simple, personally relevant, example.
+  2. To understand how categorial descriptions facilitate comparisons across domains and content areas. 
+  3. Appreciate the ability of category theory to enable the building of hierarchies that allow distinct, but similar things to be compared and measures against each other.
+  4. The ability to see how category theory enables the abstraction  of specific problems and allows them to be considered in their more general aspects.
+  5. To prompt a thinking about the structure of the connections between things rather than the things themselves. And to appreciate how this focus on structure  may hold the key to new insights.
+
+     
+
