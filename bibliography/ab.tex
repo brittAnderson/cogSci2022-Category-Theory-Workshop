@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\usepackage{hyperref}
+\addbibresource{cogneuract.bib}
+\author{Workshop Presenters}
+\title{An annotated bibiliography on category theory for cognitive scientists}
+
+\begin{document}
+
+\maketitle
+
+\section{Introductions and Textbooks}
+\label{sec:intr-textb}
+
+There are many excellent introductory texts. Those on ``category theory'' per se will be much more technical and mathematical, and most newcomers to the field will want to look for books on ``\emph{applied} category theory''. 
+
+\subsection{Category Theory }
+\label{sec:category-theory-}
+
+We highlight a few general category theory texts here that may be useful to newcomers. However, there are many more excellent texts on the subject and that take different slants at presenting the material. Therefore, if none of these books click, it would still be worthwhile to peruse the stacks of your university's library to see if another one, not mentioned here, might be a better fit.
+
+\subsubsection{Conceptual Mathematics}
+Despite what was said in the paragraph above about pure category textbooks leaning much more on pure mathematics, the textbook by \textcite{lawvere09_concep} is intended to be an accessible introduction to the topic and was explicitly written to show that the material could be taught to high school students. The book has a very gentle pace, and is longer than most of the others in this bibliography. Its format is to present its topics first as dialogues with prototypical students, and then present the material again in a more didactic format. For those with the time this is an excellent first book.
+
+\subsubsection{Basic Category Theory}
+This is an excellent recent introduction to category theory \autocite{tom16_basic_categ_theor}. It draws most of the examples from mathematics and vector spaces, topological spaces, rings, groups and monoids appear early and frequently. If those terms are unfamiliar then the small size can be deceptive as there will be substantial time looking up the mathematical examples before being able to tackle the categorical concepts. This can also be disruptive to the learning process. For those with a reasonable grounding in mathematical terminology this can be one of the best starter books. For those without, there may be better choices from the applied category theory collection (see \ref{subsec:actTexts}). 
+
+\subsubsection{An Introduction to the Language of Category Theory}
+\textcite{roman17_introd_languag_categ_theor} is a good book for those who want a compendium of terminology. It is a convenient book to have on hand for looking up the new (or forgotten) term  quickly. The writing is clear, and it can be read out of order. It is written by a mathematician for mathematicians. It does not treat applications nor use non-mathematical examples. 
+
+\subsection{Applied Category Theory Books Intended for Non-mathematicians}
+\label{subsec:actTexts}
+
+Applied category theory has grown as a distinct sub-discipline of category theory. Two recent textbooks have targeted scientists and the sciences as application domains. Both of these books have free on-line versions. Each demands a fair amount of time and effort to be understood in any detail and therefore it might be hard to make them the first resource a cognitive scientist should use to get a foothold in this area (opinion BA). These two books might each be an excellent choice for a class or weekly reading and discussion group, but only after one became convinced by reading shorter sources (such as some of the review articles to be found in \ref{subsec:actRevArts}) that the ideas were worth the time and effort. 
+
+\subsubsection{Category Theory for the Sciences}
+\textcite{spivak14_categ} attempts to give to scientists a grasp of the mathematical concepts by frequent use of concrete examples. Instead of only having the mathematician's $X$s and $Y$s we also have DNA, RNA, and proteins. The abstract structures of sets, monoids, or functors are made more concrete by the use of examples drawn from the sciences. Monoids are not only defined mathematically, but are also presented as a way ``to organize thoughts about agents acting on objects''. \citetitle{spivak14_categ} does not seek to prove its mathematical claims as much as it seeks to demonstrate them and thereby ``prove'' to the scientist reader that these concepts and these formulations are useful. This is perhaps its main strength. Scientists are shown how many of their constructs are instances of these particular mathematical objects. Still, in my experience (opinion BA), many scientists find this a difficult and rather abstract introduction to the principal ideas. Basic category theory doesn't appear as such until chapter 5.  But you should take a look for yourself. An \href{https://math.mit.edu/~dspivak/teaching/sp13/CT4S.pdf}{early version}
+of the book is legally available in manuscript form. 
+
+\subsubsection{Seven Sketches in Compositionality: An Invitation to Applied Category Theory}
+
+\textcite{fong18_seven_sketc_compos} is written for the general scientific audience, but it is written by mathematicians. This means that while there are many excellent connections to practical applications of category theory the treatment is weighted towards emphasizing and explaining the math behind the connection. In range of topics the book is similar \cite{spivak14_categ}, but does not emphasize the use of ologs, and the chapters are more compartmentalized. Chapters can be skimmed to find an application of interest and then read in detail. It is possible to read out of order and use the index to jump back and forth to earlier and later material to fill in gaps of vocabulary or conceptual knowledge. Of the two books mentioned in this section this is the one I recommend looking at first. It too has a \href{https://arxiv.org/pdf/1803.05316}{manuscript version} freely and legally available.
+
+\subsubsection{Using Code and Programming to Learn About Category Theory}
+
+There are several books that emphasize the connections between computer science and category theory. For those who find programming a good way to learn concepts these books deserve consideration. \textcite{milewski19_categ} is a recent book that uses C++ and Haskell as the main languages for discussing categorical concepts (but examples from other programming languages are available, e.g. Scala). It began as a series of blog posts, but print versions are available as well as a \href{https://github.com/hmemcpy/milewski-ctfp-pdf}{free pdf}. \href{https://www.cs.man.ac.uk/~david/categories/}{Computational Category Theory} is one the first projects to implement the constructs of category theory in a programming language. The language, ML, is not commonly used today, but has influenced many programming languages that are on the functional end of the programming langauge spectrum. Both a manual, essentially a book, and the code are freely available.
+
+In addition, a number of programming languages have packages or implemetations of category theory that can be used for self-teaching or as actual tools in developing programming implementations of particular models. The one that seems under most active development is the \href{https://www.algebraicjulia.org/}{computational algebra set of packages} in the \href{https://julialang.org/}{Julia} programming language. This software had been used for \href{https://arxiv.org/abs/2203.16345}{developing models of epidemics}. Other computer languages with category theory libraries or packages include \href{https://github.com/statebox/idris-ct}{idris}, \href{https://arxiv.org/pdf/2005.02975.pdf}{python [pdf]}, \href{https://github.com/sjoerdvisscher/data-category}{haskell}, and \href{https://european-lisp-symposium.org/static/proceedings/2010.pdf}{common lisp}. 
+
+\section{Articles}
+\label{sec:articles}
+
+There are an increasing number of research reports and articles describing the application of category theory to topics of interest to cognitive scientists, and we highlight some of them here with the idea to emphasizing those that are more tutorial in their content or highlight a novel application.
+
+\subsection{Some Recent Articles with Cognitive Science and Neuroscience Emphases}
+\label{subsec:actRevArts}
+
+\subsubsection{A Category Theory Principle for Cognitive Science}
+\textcite{phillips21_categ_theor_princ_cognit_scien} presents the important idea of universal constructions. To get to this point it first provides a methodical introduction to the core concepts of category theory from a cognitive science perspective. An earlier work \autocite{phillips2014category} covers similar ground, but uses a different setting for the examples.
+
+This paper also introduces the idea of a universal construction. One of the attributes of category theory is its ability to demonstrate what is common or general among a collection of similar things. If one can demonstrate that something is, or has, a universal property then one can often ignore the concrete details when trying to prove something about it. Universal properties and /adjoints/ are used in a discussion of systematicity in cognition. 
+
+\subsection{Consciousness}
+\label{sec:consciousness}
+
+One of the challenges of consciousness study is coming up with a succinct, but rigorous vocabulary for describing phenomena and comparing models. Given those are category theory's strengths it is not surprising to see it has been applied to consciousness studies \autocite{kato2002category, Northoff674242, tsuchiya2016using}
+
+Category theory should not be regarded as a theory of consciousness but as a language for the expression of theories of consciousness. For example, different ideas about the correct conception of qualia and qualia spaces can be expressed clearly and rigorously via category theory \autocite{tsuchiya22_enric_categ_as_model_qualia}. Whether they are the right way to characterize qualia is not a question for category theory.
+
+\subsection{Semantics}
+\textcite{heller19_homun_brain_categ_logic} uses category theory to analyze semantics and syntax (one of the authors, Awodey, has an excellent introduction to category theory, but it tackles the topic from the logical and universal property perspectives and does not use examples from cognition or cognitive neuroscience \autocite{awodey10_categ}). Their article describes BRAIN and MIND as categories and semantics and syntax emerge as functors between these categories. The linkage between semantics and syntax are established by asserting the /adjointness/ of the functors. Another interesting point the authors demonstrate is that categories don't have to be the simple sets many of us first use to visualize them. In this article each neuron in the brain is a category to itself that captures the notion of what that neuron does and the axons that connect one neuron to another are the morphisms of the category BRAIN, which is a category of categories, the neuron categories. 
+
+\subsection{Machine Learning}
+\textcite{shiebler21_categ_theor_machin_learn} is a recent and up to date one stop shop for applications of category theory to machine learning. It concentrates on three topics: gradient-based methods, probabilistic methods and invariant/equivariant learning. It is tutorial and comprehensive, but does assume a familiarity with basic categorical notions and terminology. It has a comprehensive reference list and is a good first stop when wanting to dive into the literature on a particular ML topic. However, for the beginner in category theory the paper itself may be a tough first read.
+
+
+\subsection{Higher Cognitive Functions}
+\textcite{ehresmann2015conciliating}
+
+\autocite{gomez-ramirez14_new_found_repres_cognit_brain_scien}
+
+\printbibliography
+
+\end{document}
